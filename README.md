@@ -1,3 +1,27 @@
+<!-- visual-map -->
+## 🗺️ Visual map
+
+If you prefer pictures to walls of text, open [**roadmap-diagrams.md**](./roadmap-diagrams.md) — 10 Mermaid diagrams covering the full repo: course dependencies, track decision tree, LLM application stack, RAG sequence, CV pipeline, MLOps lifecycle, career path, and more.
+
+```mermaid
+flowchart LR
+    Math[📐 math-for-ml] --> NN[🧠 neural-networks]
+    DS[📊 data-science] --> NN
+    NN --> LLM[🤖 llm-engineering]
+    NN --> CV[👁️ computer-vision]
+    LLM --> Labs[🧪 practice-labs]
+    CV --> Labs
+    DS --> Labs
+    Labs --> Interview[🎤 interview-prep]
+    Interview --> Job([💼 Offer])
+    Claude[⚡ claude-code] -.boost.-> NN
+    Claude -.boost.-> LLM
+```
+
+Full set of diagrams → [roadmap-diagrams.md](./roadmap-diagrams.md)
+
+---
+
 # 🤖 Machine Learning Roadmap: from zero to vibe-coding guru
 
 > **A learning map for Machine Learning, Deep Learning, LLMs, Generative AI, and MLOps** — from your first `import numpy` to the level of an engineer who understands **how AI works inside** and can build production systems, not just call APIs.
